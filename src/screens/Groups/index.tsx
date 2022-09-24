@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { Alert, FlatList, } from 'react-native';
 
-import { Loading } from '@components/loading';
+import { Loading } from '@components/Loading';
 import { Highlight } from '@components/Highlight';
 import { Header } from '@components/Header';
 import { GroupCard } from '@components/GroupCard';

@@ -5,7 +5,7 @@ import { useRoute, useNavigation } from '@react-navigation/native';
 
 import { Container, Form, HeaderList, NumberOfPlayers } from './styles';
 
-import { Loading } from '@components/loading';
+import { Loading } from '@components/Loading';
 import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
 import { Input } from '@components/Input';
@@ -116,7 +116,7 @@ export function Players(){
     return (
         <Container>
             <Header 
-            showBackButton
+                showBackButton
             />
 
             <Highlight 
